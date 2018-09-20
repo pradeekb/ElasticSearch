@@ -9,7 +9,7 @@ public class College {
 		return department;
 	}
 
-	//student detail
+	//student detail new comment
 	public void setDepartment(StudentDetail department) {
 		this.department = department;
 	}
