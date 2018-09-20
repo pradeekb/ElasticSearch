@@ -25,17 +25,4 @@ public class ElasticSearchProjectController {
 		return employeeDetail;
 	}
 	
-	
-	@RequestMapping(value = "/addStudentDetail", method = RequestMethod.POST)
-	public void addStudentDetail(StudentDetail studentDetail) throws Exception {
-		
-		elasticSearchClient.addStudentDetail(studentDetail);
-		
-	}
-	
-	
-	
-	
-
-
 }
