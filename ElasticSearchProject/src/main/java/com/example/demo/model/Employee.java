@@ -1,7 +1,7 @@
 package com.example.demo.model;
 
 public class Employee {
-	
+	//empid
 	private String empId;
 	private String empName;
 	private String empDept;
