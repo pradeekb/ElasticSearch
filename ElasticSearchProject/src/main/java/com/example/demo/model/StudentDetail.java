@@ -3,7 +3,7 @@ package com.example.demo.model;
 import java.util.ArrayList;
 
 public class StudentDetail {
-	
+	//departmentName
 	private String departmentName;
 	private String passedOut;
 	private ArrayList<Student> studentList;
