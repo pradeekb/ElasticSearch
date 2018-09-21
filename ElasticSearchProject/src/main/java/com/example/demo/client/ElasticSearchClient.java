@@ -12,7 +12,7 @@ import io.searchbox.core.Get;
 @Service
 public class ElasticSearchClient {
 	
-private static JestClient jestClient = null;
+private JestClient jestClient;
 
 private static final String hostName = "localhost";
 private static final String portNumber = "9200";
