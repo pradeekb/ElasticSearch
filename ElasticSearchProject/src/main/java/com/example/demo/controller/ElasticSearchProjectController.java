@@ -17,11 +17,6 @@ public class ElasticSearchProjectController {
 	@Autowired
 	ElasticSearchClient elasticSearchClient;
 	
-<<<<<<< Updated upstream
-//no comment
-=======
-//new comment
->>>>>>> Stashed changes
 	@RequestMapping(value = "/employee/{id}", method = RequestMethod.GET)
 	public Employee getEmployeeDetail(@PathVariable("id") String id) throws Exception {
 		
